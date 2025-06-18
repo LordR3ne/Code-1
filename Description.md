@@ -2,8 +2,8 @@
 
 Git isn´t Github. 🥑
 
-Git: having different versions of a version of a program. Merging, branching…
+Git: 
 
-node: convert the program to use it on other platforms .
+Node: 
 
 TypeScript: 
