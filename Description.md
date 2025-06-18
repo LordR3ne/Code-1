@@ -1,11 +1,6 @@
-# My Awesome Project
+# What did I learn?
 
-
-## Features
-
-
-### Sub-feature
-
-
-
-
+*Git isn´t Github
+*Git: having different versions of a version of a program. Merging, branching…
+*node: convert the program to use it on other platforms 
+*TypeScript: 
