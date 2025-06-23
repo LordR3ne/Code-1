@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Weber Fan Page</title>
+    <!-- Tailwind CSS CDN for quick and responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for the Rick Roll button */
+        .rick-roll-button {
+            background-color: #ef4444; /* Red-500 */
+            color: white;
+            padding: 12px 24px;
+            border-radius: 9999px; /* Fully rounded */
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+        .rick-roll-button:hover {
+            background-color: #dc2626; /* Red-600 */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        .rick-roll-button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-100 min-h-screen text-gray-800 flex flex-col items-center py-8">
+
+    <!-- Sectioning Content: Header -->
+    <header class="w-full bg-white shadow-lg rounded-xl p-6 mb-8 text-center max-w-4xl mx-auto">
+        <hgroup>
+            <h1 class="text-5xl font-extrabold text-purple-700 leading-tight mb-2">Carlos Weber Official Fan Page</h1>
+            <p class="text-xl text-gray-600">Celebrating the incredible talent of our fictional star!</p>
+        </hgroup>
+    </header>
+
+    <main class="w-full max-w-4xl bg-white shadow-lg rounded-xl p-8 mb-8 space-y-8">
+
+        <!-- Sectioning Content: Article & Text Content -->
+        <article id="about-carlos" class="prose lg:prose-xl mx-auto">
+            <h2 class="text-4xl font-bold text-blue-700 mb-4">About Carlos Weber</h2>
+            <figure class="float-right ml-6 mb-4 w-1/3 min-w-[200px] max-w-[300px] rounded-lg overflow-hidden shadow-md">
+                <!-- Media: Image with placeholder. This is a generic image. -->
+                <img src="https://nypost.com/wp-content/uploads/sites/2/2019/08/patrick-crusius.jpg?resize=1024,682&quality=75&strip=all"
+                     alt="Fictional Carlos Weber Portrait"
+                     class="w-full h-auto object-cover rounded-lg">
+                <!-- Text Content: Figure Caption -->
+                <figcaption class="text-center text-sm text-gray-500 mt-2">Carlos Weber in his element (fictional depiction)</figcaption>
+            </figure>
+
+            <p class="text-lg leading-relaxed">
+                Carlos Weber, born on <time datetime="1985-05-15">May 15, 1985</time>, is a groundbreaking fictional artist known for his unique blend of traditional and contemporary styles. From his early days exploring
+                <abbr title="Graphic Design">GD</abbr> and <abbr title="Digital Art">DA</abbr> in his hometown, Carlos quickly captivated audiences with his innovative approach.
+            </p>
+            <p class="text-lg leading-relaxed">
+                His career truly took off with the release of his critically acclaimed album,
+                <cite>Chromatic Dreams</cite>, which featured hits like <q>Echoes of Tomorrow</q> and <q>Silent Symphony</q>.
+                Critics praised his ability to create deeply emotional narratives through his art, often incorporating elements of
+                <mark>surrealism</mark> and <mark>abstract expressionism</mark>.
+            </p>
+            <p class="text-lg leading-relaxed">
+                Carlos often emphasizes the importance of authenticity in art. As he famously said,
+                <blockquote cite="https://fictional-carlos-quotes.com/authenticity">
+                    "True art is not about perfection, but about the raw, unfiltered expression of the soul."
+                </blockquote>
+            </p>
+            <p class="text-lg leading-relaxed">
+                He has collaborated with various international artists and his work has been exhibited in prestigious galleries worldwide.
+                Below is a short list of his achievements:
+            </p>
+            <!-- Text Content: Lists -->
+            <ul class="list-disc list-inside text-lg">
+                <li>Winner of the <strong class="text-red-600">Golden Brush Award</strong> (2010)</li>
+                <li>Multiple chart-topping albums (fictional)</li>
+                <li>Champion of digital art innovation</li>
+            </ul>
+        </article>
+
+        <!-- Sectioning Content: Section & Interactive Element -->
+        <section class="mt-8 bg-gray-50 p-6 rounded-lg shadow-inner">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">Carlos's Discography</h2>
+            <!-- Interactive Element: Details/Summary -->
+            <details class="text-lg">
+                <summary class="font-semibold text-xl cursor-pointer text-blue-600 hover:text-blue-800">View Full Discography (Click to expand)</summary>
+                <dl class="mt-4 space-y-2">
+                    <!-- Text Content: Description List -->
+                    <dt class="font-bold text-gray-700">Chromatic Dreams (2009)</dt>
+                    <dd class="ml-4 text-gray-600">Debut album, featuring hit singles "Echoes of Tomorrow" and "Silent Symphony".</dd>
+
+                    <dt class="font-bold text-gray-700">Whispers in the Wind (2012)</dt>
+                    <dd class="ml-4 text-gray-600">A more experimental album, exploring ambient soundscapes.</dd>
+
+                    <dt class="font-bold text-gray-700">Digital Renaissance (2017)</dt>
+                    <dd class="ml-4 text-gray-600">Return to form, blending his classic style with new digital techniques.</dd>
+                </dl>
+            </details>
+        </section>
+
+        <!-- Sectioning Content: Section & Media Element (Video) -->
+        <section class="mt-8 bg-gray-50 p-6 rounded-lg shadow-inner">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">Interview Highlight</h2>
+            <p class="text-lg mb-4">Watch a snippet from Carlos's recent (fictional) interview:</p>
+            <!-- Media: Video Element -->
+            <video controls
+                   poster="https://placehold.co/600x400/90EE90/000000?text=Interview+Thumbnail"
+                   class="w-full h-auto rounded-lg shadow-md max-w-full">
+                <!-- Source element for video. Using a dummy video source for demonstration. -->
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="text-sm text-gray-500 mt-2">
+                (Note: This is a placeholder video for demonstration purposes.)
+            </p>
+        </section>
+
+        <!-- Sectioning Content: Section & Form Elements -->
+        <section class="mt-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">Join the Fan Club!</h2>
+            <p class="text-lg mb-6">Sign up to receive exclusive updates and content from Carlos Weber.</p>
+
+            <!-- Forms: Form Element -->
+            <form action="#" method="POST" class="space-y-6">
+                <!-- Forms: Text Input -->
+                <div>
+                    <label for="fanName" class="block text-gray-700 text-sm font-bold mb-2">Your Name:</label>
+                    <input type="text" id="fanName" name="fanName" placeholder="Enter your full name" required
+                           class="shadow-sm appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-200">
+                </div>
+
+                <!-- Forms: Email Input -->
+                <div>
+                    <label for="fanEmail" class="block text-gray-700 text-sm font-bold mb-2">Email Address:</label>
+                    <input type="email" id="fanEmail" name="fanEmail" placeholder="your.email@example.com" required
+                           class="shadow-sm appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-200">
+                </div>
+
+                <!-- Forms: Select/Dropdown -->
+                <div>
+                    <label for="favoriteAlbum" class="block text-gray-700 text-sm font-bold mb-2">Favorite Album:</label>
+                    <select id="favoriteAlbum" name="favoriteAlbum"
+                            class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded-md shadow-sm leading-tight focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-200">
+                        <!-- Forms: Options & Optgroup -->
+                        <optgroup label="Studio Albums">
+                            <option value="chromatic_dreams">Chromatic Dreams</option>
+                            <option value="whispers_wind">Whispers in the Wind</option>
+                            <option value="digital_renaissance" selected>Digital Renaissance</option>
+                        </optgroup>
+                        <optgroup label="Live Albums">
+                            <option value="live_paris">Live from Paris</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <!-- Forms: Radio Buttons -->
+                <div>
+                    <span class="block text-gray-700 text-sm font-bold mb-2">Receive Newsletter?</span>
+                    <div class="mt-2 space-y-2">
+                        <label class="inline-flex items-center">
+                            <input type="radio" name="newsletter" value="yes" checked
+                                   class="form-radio text-purple-600 focus:ring-purple-500 rounded-full">
+                            <span class="ml-2 text-gray-700">Yes</span>
+                        </label>
+                        <label class="inline-flex items-center ml-6">
+                            <input type="radio" name="newsletter" value="no"
+                                   class="form-radio text-purple-600 focus:ring-purple-500 rounded-full">
+                            <span class="ml-2 text-gray-700">No</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Forms: Checkbox -->
+                <div>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" name="terms" required
+                               class="form-checkbox text-purple-600 focus:ring-purple-500 rounded">
+                        <span class="ml-2 text-gray-700">I agree to the <a href="#" class="text-blue-600 hover:underline">terms and conditions</a>.</span>
+                    </label>
+                </div>
+
+                <!-- Forms: Textarea -->
+                <div>
+                    <label for="comments" class="block text-gray-700 text-sm font-bold mb-2">Comments (Optional):</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Share your thoughts on Carlos's art!"
+                              class="shadow-sm appearance-none border rounded-md w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-200"></textarea>
+                </div>
+
+                <!-- Forms: Button -->
+                <button type="submit"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200">
+                    Join Fan Club
+                </button>
+            </form>
+        </section>
+
+        <!-- Rick Roll Section -->
+        <section class="mt-8 p-6 bg-red-100 border-l-4 border-red-500 text-red-800 rounded-lg shadow-md text-center">
+            <h2 class="text-3xl font-bold mb-4">Want to discover a secret video of Carlos?</h2>
+            <p class="mb-6 text-lg">Click the button below for an exclusive, never-before-seen clip!</p>
+            <button class="rick-roll-button" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');">
+                Click for Secret Video!
+            </button>
+        </section>
+
+        <!-- Table Example -->
+        <section class="mt-8 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">Upcoming Fictional Exhibitions</h2>
+            <div class="overflow-x-auto rounded-lg shadow-sm">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <caption class="p-2 text-lg font-semibold text-gray-700 bg-gray-50 border-b rounded-t-lg">Exhibition Schedule</caption>
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Event
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Location
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Date
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Digital Art Expo</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">Art Hall, Neo-City</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700"><time datetime="2025-09-10">Sep 10-12, 2025</time></td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Future Visions Showcase</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">Global Gallery, Metropolis</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700"><time datetime="2026-03-05">Mar 5-8, 2026</time></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="bg-gray-100">
+                        <tr>
+                            <td colspan="3" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                More dates to be announced soon!
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Document Structure: Footer -->
+    <footer class="w-full bg-gray-800 text-white text-center p-6 mt-8 rounded-xl max-w-4xl mx-auto">
+        <p>&copy; 2025 Fictional Carlos Weber Fan Page. All Rights Reserved.</p>
+        <address class="text-sm mt-2">
+            Contact: <a href="mailto:fans@carlosweber.com" class="text-blue-300 hover:underline">fans@carlosweber.com</a>
+        </address>
+        <p class="text-xs text-gray-400 mt-2">
+            Disclaimer: This page is for a fictional character and uses placeholder content.
+        </p>
+    </footer>
+
+</body>
+</html>
