@@ -39,3 +39,11 @@ Semantics: Refers to the meaning of a language construct. It's about what a synt
 
 Syntax is about form (is it correctly written?).
 Semantics is about meaning (does it make sense and do what it's supposed to do?)
+
+What does "cascading" mean?
+
+The term "cascading" in CSS refers to the process by which a web browser determines which style rules to apply when multiple, potentially conflicting, rules could affect the same HTML element. Think of it like a waterfall, where styles flow down and are applied, but at different "levels" or "sources," and some levels have more "force" to override others.
+
+There are three main concepts that define this "cascading" behavior:
+
+
