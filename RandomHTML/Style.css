@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+a {
+    color: #87CEEB;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ADD8E6;
+    font-family: 'Courier New', Courier, monospace;
+}
+    div {
+  width: 200px;
+  height: 200px;
+   position: relative;
+  background-color: red;
+  animation-name: Cube;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes Cube{
+  0%   {background-color: red;left:10cm; right:10cm;}
+  25%  {background-color: yellow;right:10cm; left:10cm;}
+  50%  {background-color: blue;bottom:10cm; top:10cm;}
+  100% {background-color: green;left:10cm; bottom:10cm;}
+ 
+}
