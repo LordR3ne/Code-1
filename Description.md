@@ -46,4 +46,7 @@ The term "cascading" in CSS refers to the process by which a web browser determi
 
 There are three main concepts that define this "cascading" behavior:
 
+Block(Code of Blocks)
+Scopes: Nested information in a Block can only be used inside of that Block. Outside it doesn't exist.
 
+Alway start the Code in Ts with namespace "Name". 
