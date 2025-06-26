@@ -27,13 +27,13 @@ h6 {
    position: relative;
   background-color: red;
   animation-name: Cube;
-animation-duration: 1s;
+animation-duration: 4s;
 animation-iteration-count: infinite;
 }
 @keyframes Cube{
-  0%   {background-color: red;left:10cm; right:10cm;}
-  25%  {background-color: yellow;right:10cm; left:10cm;}
-  50%  {background-color: blue;bottom:10cm; top:10cm;}
-  100% {background-color: green;left:10cm; bottom:10cm;}
+  100%   {background-color: red;left:10cm; right:20cm;}
+  25%  {background-color: yellow;right:20cm; left:10cm;}
+  50%  {background-color: blue;bottom:10cm; top:20cm;}
+  100% {background-color: green;left:20cm; bottom:10cm;}
  
 }
