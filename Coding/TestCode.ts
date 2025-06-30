@@ -1,23 +1,8 @@
-namespace TestCode {
-    let x: number = 2;
-    if (x == 1) {
-        console.log("Hello!")
-    }
-    else
-        console.log("Goodbye!")
-
-
-
-    switch (x) {
-
-
-        case 1: console.log("Case 1")
-            break
-        case 2: console.log("Case 2")
-            break
-        case 3: console.log("Case 3")
-            break
-        default: console.log("Error")
-    }
-
+interface Student {
+    name: string;
+    matrikel: number;
+    grades: {[module: string]: number};
 }
+let students: Student[] = [];
+
+students.push({name: "Big Brain", matrikel: 123456, grades: {"EIA1": 1.3, "EIA2": 1.0}});
