@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+body {
+    display:grid;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    height: 100%;
+    grid-template-rows: 100px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "top top" "left right";
+    column-gap: 50px;
+}
+
+#mouse-coords {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#Info-Box{
+position: fixed;
+}
+div[name ="div0"]{
+    grid-area: left;
+    background-color: aqua;
+}
+div[name ="div1"]{
+
+    grid-area: right;
+    background-color: red;
+}
+h1{
+    grid-area: top;
+}
