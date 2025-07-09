@@ -65,7 +65,5 @@ var Ballz;
             ball.element.style.transform = `matrix(20, 0, 0, 20, ${ball.position.x}, ${ball.position.y})`;
         }
     }
-    function checkCollision(_a, _b) {
-    }
 })(Ballz || (Ballz = {}));
 //# sourceMappingURL=Ball.js.map

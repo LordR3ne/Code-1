@@ -91,7 +91,4 @@ namespace Ballz {
             ball.element.style.transform = `matrix(20, 0, 0, 20, ${ball.position.x}, ${ball.position.y})`;
         }
     }
- function checkCollision(_a: number, _b:number): void {
-    
- }
 }
